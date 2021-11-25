@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+float km,m,cm;
+printf("enter the value of km");
+scanf("%f",&km);
+m=km*1000;
+cm=m*100;
+printf("the value of m is %f",m);
+printf("\n the value of cm is %f",cm);
+}
