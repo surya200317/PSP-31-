@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	float v,l,ml;
+	printf("enter the volume");
+	scanf("%f",&v);
+	l=v*1000;
+	ml=l*1000;
+	printf("liter value is %f",l);
+	printf("milliliter value is %f",ml);
+	return 0;
+	
+	
+
+}
